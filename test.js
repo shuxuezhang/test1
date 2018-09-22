@@ -62,6 +62,19 @@ for(let i = 0 ;i<maps.keys().length; i++){
  * 方法2 git rm <filename> 将暂存区和 工作区的文件一起删除  （如果被修改过 需要 -f）
  *      git rm --cached <filename> 只删除暂存区文件
  *      git rm -f  强行将修改的文件也删除
+ *
+ * git 重命名
+ * git mv index.js index_new.js  将工作区和暂存区 全部更换（rename）
+ *
+ *
+ * git 分支
+ * head 永远指向当前分支
+ * git branch		查看所有分支  *表示当前使用的分支
+ * git branch dev   创建一个dev 分支
+ * git checkout dev 切换到某一分支
+ * git branch -d dev  删除一个分支 （前提是 不能删除当前正在使用的分支  必须要切换到另一个分支上）
+ * git branch -m dev fix  修改分支名称  将dev编程fix
+ * git checkout -b dev 创建一个分支 并使用这个创建的分支
  */
 
 //如果想要让工作区的内容  恢复到上个版本  可以先git reset head   然后 git checkout
