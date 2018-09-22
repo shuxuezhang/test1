@@ -75,6 +75,17 @@ for(let i = 0 ;i<maps.keys().length; i++){
  * git branch -d dev  删除一个分支 （前提是 不能删除当前正在使用的分支  必须要切换到另一个分支上）
  * git branch -m dev fix  修改分支名称  将dev编程fix
  * git checkout -b dev 创建一个分支 并使用这个创建的分支
+ * 合并
+ * git merge fix  将fix分支合并到当前分支（master）；
+ *
+ * git diff  比较工作区与暂存区
+ * git diff --staged 比较暂存区 与 版本库
+ * git diff fix master 比较两个分支的差异
+ * git diff 版本1  版本2 比较两个版本差异
+ *
+ *
+ * git stash
+ *
  */
 
 //如果想要让工作区的内容  恢复到上个版本  可以先git reset head   然后 git checkout
