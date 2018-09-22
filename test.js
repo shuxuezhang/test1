@@ -86,8 +86,9 @@ for(let i = 0 ;i<maps.keys().length; i++){
  * git切换分支的时候 如果当前有没有提交的工作区修改  如果和要切换的分支 工作区有冲突 则会出现错误
  * git stash  保存工作区修改  还原到没有修改的时候
  * git stash list  查看stash 的list列表
- * 还原  git stash apply stash{0}   吧之前保存的修改还原到工作区
+ * 还原  git stash apply stash{0}   吧之前保存的修改还原到工作区  但不会提交
  *      git stash pop stash{1}  把工作区和暂存区的内容一起还原  并删除这个stash 记录
+ *      查看stash 指令  git stash --list
  *
  */
 
