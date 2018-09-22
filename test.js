@@ -66,7 +66,7 @@ for(let i = 0 ;i<maps.keys().length; i++){
 
 //如果想要让工作区的内容  恢复到上个版本  可以先git reset head   然后 git checkout
 
-
+//
 
 
 
