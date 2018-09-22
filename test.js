@@ -59,7 +59,8 @@ for(let i = 0 ;i<maps.keys().length; i++){
  *
  * git删除
  * 方法1 在本地删除  然后 git add . 提交删除操作  git commit
- * 方法2 git rm --cached <filename> 只删除暂存区文件 
+ * 方法2 git rm <filename> 将暂存区和 工作区的文件一起删除  （如果被修改过 需要 -f）
+ *      git rm --cached <filename> 只删除暂存区文件
  *      git rm -f  强行将修改的文件也删除
  */
 
