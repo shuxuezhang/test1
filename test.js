@@ -41,8 +41,11 @@ for(let i = 0 ;i<maps.keys().length; i++){
 // 第一版本
 
 
-
-
+/**
+ * git add   放到暂存区
+ * git checkout  放弃工作区修改
+ * git reset Head 恢复到最近一次的commit  或者 add 将
+*/
 
 
 
