@@ -34,7 +34,7 @@ console.log(maps.keys().length);
 let tree = [];
 for(let i = 0 ;i<maps.keys().length; i++){
 	if(i == 0){
-		let data = 
+		let data = '';
 	}
 }
 
