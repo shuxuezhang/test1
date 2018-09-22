@@ -44,7 +44,8 @@ for(let i = 0 ;i<maps.keys().length; i++){
 /**
  * git add   放到暂存区
  * git checkout  放弃工作区修改
- * git reset Head 恢复到最近一次的commit  或者 add 将
+ * git reset Head 恢复到最近一次的commit  或者 add  将暂存区的内容恢复到某一版本  工作区不变
+ * git diff 比较工作区 与 暂存区的差别
 */
 
 
