@@ -42,11 +42,19 @@ for(let i = 0 ;i<maps.keys().length; i++){
 
 
 /**
- * git add   放到暂存区
- * git checkout  放弃工作区修改
- * git reset Head 恢复到最近一次的commit  或者 add 将
-*/
+ * git 的4种状态  untracked未被追踪的  Modified工作区修改 还没有保存到暂存区
+ *               staged：添加到暂存区还没有到版本库
+ * git status 状态查询
+ * git add   放到暂存区   git add .  一次提交所有的内容
+ * git commit -m 提交暂存区内容到版本库
+ * git commit -am 合并上面两个操作
+ * git commit --amend 打补丁（）
+ * git checkout <文件名> 拉取暂存区的内容 替换工作区的内容
+ * git reset Head 拉取最近一次版本库中的文件替换到暂存区  工作区不变
+ * git diff 比较工作区 与 暂存区的差别
+ */
 
+//如果想要让工作区的内容  恢复到上个版本  可以先git reset head   然后 git checkout
 
 
 
