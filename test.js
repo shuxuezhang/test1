@@ -50,16 +50,21 @@
  *
  * git 远程仓库
  * github 创建项目  cd到本地项目然后复制地址 git push https://------ master(要添加上传的分支)
- * 拉到本地： 创建一个文件夹  然后git init(必须先执行这个才可以pull)   然后git pull  https://
+ * 拉到本地： 创建一个文件夹  然后git init(必须先执行这个才可以pull)   然后git pull  https://  master
  * 注意： 如果用ssh 协议  需要在执行ssh-keygen   生成一对公钥和私钥  把公钥放到github（setting中添加）上 就可以访问了
  * 技巧： 可以用git remote 命令 将地址 转换成一个名字  不需要每次push pull 都传地址
  *       git remote add test git@github.com:shuxuezhang/test1.git
  *       git remote -v(查看)
  *
+ * 服务器 搭建远程仓库
+ *
  *
  */
 
 //如果想要让工作区的内容  恢复到上个版本  可以先git reset head   然后 git checkout
+//git rest --hard <head/版本号>将工作区 暂存区 都回退
+//         --mix              版本库和暂存区回退
+//         --soft             只有版本库回退
 
 //
 
