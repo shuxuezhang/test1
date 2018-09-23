@@ -90,6 +90,8 @@ for(let i = 0 ;i<maps.keys().length; i++){
  *      git stash pop stash{1}  把工作区和暂存区的内容一起还原  并删除这个stash 记录
  *      查看stash 指令  git stash --list
  *
+ * git 远程仓库
+ *
  */
 
 //如果想要让工作区的内容  恢复到上个版本  可以先git reset head   然后 git checkout
