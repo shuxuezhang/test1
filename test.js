@@ -91,6 +91,10 @@ for(let i = 0 ;i<maps.keys().length; i++){
  *      查看stash 指令  git stash --list
  *
  * git 远程仓库
+ * github 创建项目  cd到本地项目然后复制地址 git push https://------
+ * 拉到本地： 创建一个文件夹  然后git init(必须先执行这个才可以pull)   然后git pull  https://
+ * 注意： 如果用ssh 协议  需要在执行ssh-keygen   生成一对公钥和私钥  把公钥放到github（setting中添加） 上 就可以访问了
+ *
  *
  */
 
