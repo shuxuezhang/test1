@@ -98,6 +98,7 @@ for(let i = 0 ;i<maps.keys().length; i++){
  *       git remote add test git@github.com:shuxuezhang/test1.git
  *       git remote -v(查看)
  *
+ *
  */
 
 //如果想要让工作区的内容  恢复到上个版本  可以先git reset head   然后 git checkout
